@@ -1,0 +1,37 @@
+[
+  {
+      "day" : "Mon",
+      "dayJP" : "月",
+      "dayl" : "Monday",
+      "dayJPl" : "月曜日",
+      "sub" : [1,2,3,4]
+  },
+  {
+      "day" : "Tue",
+      "dayJP" : "火",
+      "dayl" : "Tuesday",
+      "dayJPl" : "火曜日",
+      "sub" : [5,6,7]
+  },
+  {
+      "day" : "Wed",
+      "dayJP" : "水",
+      "dayl" : "Wednesday",
+      "dayJPl" : "水曜日",
+      "sub" : [8,9,10]
+  },
+  {
+      "day" : "Thu",
+      "dayJP" : "木",
+      "dayl" : "Thursday",
+      "dayJPl" : "木曜日",
+      "sub" : [11,12,5,13]
+  },
+  {
+      "day" : "Fri",
+      "dayJP" : "金",
+      "dayl" : "Friday",
+      "dayJPl" : "金曜日",
+      "sub" : [14,15,16]
+  }
+]

@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B852938D29EEE24700A04555 /* Timetable2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B852938C29EEE24700A04555 /* Timetable2023App.swift */; };
+		B852938F29EEE24700A04555 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B852938E29EEE24700A04555 /* ContentView.swift */; };
+		B852939129EEE24800A04555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B852939029EEE24800A04555 /* Assets.xcassets */; };
+		B852939429EEE24800A04555 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B852939329EEE24800A04555 /* Preview Assets.xcassets */; };
+		B852939B29EEF3A200A04555 /* subject.json in Resources */ = {isa = PBXBuildFile; fileRef = B852939A29EEF3A200A04555 /* subject.json */; };
+		B852939D29EEF5F500A04555 /* TimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B852939C29EEF5F500A04555 /* TimetableView.swift */; };
+		B89A2A6629F1308D002CAEAC /* timetable.json in Resources */ = {isa = PBXBuildFile; fileRef = B89A2A6529F1308D002CAEAC /* timetable.json */; };
+		B89A2A6A29F135E7002CAEAC /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89A2A6929F135E7002CAEAC /* JsonData.swift */; };
+		B89A2A6E29F1387F002CAEAC /* DayPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89A2A6D29F1387F002CAEAC /* DayPanelView.swift */; };
+		B89A2A7029F1897C002CAEAC /* SubjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89A2A6F29F1897C002CAEAC /* SubjectListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B852938929EEE24700A04555 /* Timetable2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timetable2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B852938C29EEE24700A04555 /* Timetable2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timetable2023App.swift; sourceTree = "<group>"; };
+		B852938E29EEE24700A04555 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B852939029EEE24800A04555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B852939329EEE24800A04555 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B852939A29EEF3A200A04555 /* subject.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = subject.json; sourceTree = "<group>"; };
+		B852939C29EEF5F500A04555 /* TimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableView.swift; sourceTree = "<group>"; };
+		B89A2A6529F1308D002CAEAC /* timetable.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timetable.json; sourceTree = "<group>"; };
+		B89A2A6929F135E7002CAEAC /* JsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonData.swift; sourceTree = "<group>"; };
+		B89A2A6D29F1387F002CAEAC /* DayPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPanelView.swift; sourceTree = "<group>"; };
+		B89A2A6F29F1897C002CAEAC /* SubjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B852938629EEE24700A04555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B852938029EEE24700A04555 = {
+			isa = PBXGroup;
+			children = (
+				B852938B29EEE24700A04555 /* Timetable2023 */,
+				B852938A29EEE24700A04555 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B852938A29EEE24700A04555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B852938929EEE24700A04555 /* Timetable2023.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B852938B29EEE24700A04555 /* Timetable2023 */ = {
+			isa = PBXGroup;
+			children = (
+				B89A2A6C29F1378B002CAEAC /* Models */,
+				B89A2A6B29F13775002CAEAC /* Views */,
+				B89A2A6529F1308D002CAEAC /* timetable.json */,
+				B852939A29EEF3A200A04555 /* subject.json */,
+				B852938C29EEE24700A04555 /* Timetable2023App.swift */,
+				B852939029EEE24800A04555 /* Assets.xcassets */,
+				B852939229EEE24800A04555 /* Preview Content */,
+			);
+			path = Timetable2023;
+			sourceTree = "<group>";
+		};
+		B852939229EEE24800A04555 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B852939329EEE24800A04555 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B89A2A6B29F13775002CAEAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B852938E29EEE24700A04555 /* ContentView.swift */,
+				B852939C29EEF5F500A04555 /* TimetableView.swift */,
+				B89A2A6D29F1387F002CAEAC /* DayPanelView.swift */,
+				B89A2A6F29F1897C002CAEAC /* SubjectListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B89A2A6C29F1378B002CAEAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B89A2A6929F135E7002CAEAC /* JsonData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B852938829EEE24700A04555 /* Timetable2023 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B852939729EEE24800A04555 /* Build configuration list for PBXNativeTarget "Timetable2023" */;
+			buildPhases = (
+				B852938529EEE24700A04555 /* Sources */,
+				B852938629EEE24700A04555 /* Frameworks */,
+				B852938729EEE24700A04555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timetable2023;
+			productName = Timetable2023;
+			productReference = B852938929EEE24700A04555 /* Timetable2023.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B852938129EEE24700A04555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B852938829EEE24700A04555 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = B852938429EEE24700A04555 /* Build configuration list for PBXProject "Timetable2023" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B852938029EEE24700A04555;
+			productRefGroup = B852938A29EEE24700A04555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B852938829EEE24700A04555 /* Timetable2023 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B852938729EEE24700A04555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B852939429EEE24800A04555 /* Preview Assets.xcassets in Resources */,
+				B89A2A6629F1308D002CAEAC /* timetable.json in Resources */,
+				B852939B29EEF3A200A04555 /* subject.json in Resources */,
+				B852939129EEE24800A04555 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B852938529EEE24700A04555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B852938F29EEE24700A04555 /* ContentView.swift in Sources */,
+				B89A2A6A29F135E7002CAEAC /* JsonData.swift in Sources */,
+				B852939D29EEF5F500A04555 /* TimetableView.swift in Sources */,
+				B89A2A7029F1897C002CAEAC /* SubjectListView.swift in Sources */,
+				B89A2A6E29F1387F002CAEAC /* DayPanelView.swift in Sources */,
+				B852938D29EEE24700A04555 /* Timetable2023App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B852939529EEE24800A04555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B852939629EEE24800A04555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B852939829EEE24800A04555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Timetable2023/Preview Content\"";
+				DEVELOPMENT_TEAM = P9PUB4YFC7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mas.Timetable2023;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B852939929EEE24800A04555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Timetable2023/Preview Content\"";
+				DEVELOPMENT_TEAM = P9PUB4YFC7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mas.Timetable2023;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B852938429EEE24700A04555 /* Build configuration list for PBXProject "Timetable2023" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B852939529EEE24800A04555 /* Debug */,
+				B852939629EEE24800A04555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B852939729EEE24800A04555 /* Build configuration list for PBXNativeTarget "Timetable2023" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B852939829EEE24800A04555 /* Debug */,
+				B852939929EEE24800A04555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B852938129EEE24700A04555 /* Project object */;
+}

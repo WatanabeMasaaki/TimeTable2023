@@ -1,0 +1,98 @@
+[
+  {
+    "id" : 1,
+    "subject" : "英語C",
+    "lmsUrl" : "https://lms.gifu-nct.ac.jp/course/view.php?id=5115",
+    "syllabusUrl" : "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=21&department_id=03&subject_id=0022&year=2020&lang=ja"
+  },
+  {
+    "id" : 2,
+    "subject" : "総合国語",
+    "lmsUrl" : "https://lms.gifu-nct.ac.jp/course/view.php?id=5115",
+    "syllabusUrl" : "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=21&department_id=03&subject_id=0022&year=2020&lang=ja"
+  },
+  {
+    "id" : 3,
+    "subject" : "電気磁気学I",
+    "lmsUrl" : "https://lms.gifu-nct.ac.jp/course/view.php?id=5115",
+    "syllabusUrl" : "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=21&department_id=03&subject_id=0022&year=2020&lang=ja"
+  },
+  {
+    "id" : 4,
+    "subject" : "特活",
+    "lmsUrl" : "https://lms.gifu-nct.ac.jp/course/view.php?id=5115",
+    "syllabusUrl" : "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=21&department_id=03&subject_id=0022&year=2020&lang=ja"
+  },
+  {
+    "id" : 5,
+    "subject" : "数学AI",
+    "lmsUrl" : "https://lms.gifu-nct.ac.jp/course/view.php?id=5115",
+    "syllabusUrl" : "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=21&department_id=03&subject_id=0022&year=2020&lang=ja"
+  },
+  {
+    "id" : 6,
+    "subject" : "電気回路I",
+    "lmsUrl" : "https://lms.gifu-nct.ac.jp/course/view.php?id=5115",
+    "syllabusUrl" : "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=21&department_id=03&subject_id=0022&year=2020&lang=ja"
+  },
+  {
+    "id" : 7,
+    "subject" : "電気情報工学実験",
+    "lmsUrl" : "https://lms.gifu-nct.ac.jp/course/view.php?id=5115",
+    "syllabusUrl" : "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=21&department_id=03&subject_id=0022&year=2020&lang=ja"
+  },
+  {
+    "id" : 8,
+    "subject" : "電気情報工学基礎演習",
+    "lmsUrl" : "https://lms.gifu-nct.ac.jp/course/view.php?id=5115",
+    "syllabusUrl" : "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=21&department_id=03&subject_id=0022&year=2020&lang=ja"
+  },
+  {
+    "id" : 9,
+    "subject" : "応用数学A",
+    "lmsUrl" : "https://lms.gifu-nct.ac.jp/course/view.php?id=5115",
+    "syllabusUrl" : "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=21&department_id=03&subject_id=0022&year=2020&lang=ja"
+  },
+  {
+    "id" : 10,
+    "subject" : "政治経済",
+    "lmsUrl" : "https://lms.gifu-nct.ac.jp/course/view.php?id=5115",
+    "syllabusUrl" : "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=21&department_id=03&subject_id=0022&year=2020&lang=ja"
+  },
+  {
+    "id" : 11,
+    "subject" : "体育",
+    "lmsUrl" : "https://lms.gifu-nct.ac.jp/course/view.php?id=5115",
+    "syllabusUrl" : "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=21&department_id=03&subject_id=0022&year=2020&lang=ja"
+  },
+  {
+    "id" : 12,
+    "subject" : "プログラミング",
+    "lmsUrl" : "https://lms.gifu-nct.ac.jp/course/view.php?id=5115",
+    "syllabusUrl" : "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=21&department_id=03&subject_id=0022&year=2020&lang=ja"
+  },
+  {
+    "id" : 13,
+    "subject" : "電子回路",
+    "lmsUrl" : "https://lms.gifu-nct.ac.jp/course/view.php?id=5115",
+    "syllabusUrl" : "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=21&department_id=03&subject_id=0022&year=2020&lang=ja"
+  },
+  {
+    "id" : 14,
+    "subject" : "英語A",
+    "lmsUrl" : "https://lms.gifu-nct.ac.jp/course/view.php?id=5115",
+    "syllabusUrl" : "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=21&department_id=03&subject_id=0022&year=2020&lang=ja"
+  },
+  {
+    "id" : 15,
+    "subject" : "応用物理BI",
+    "lmsUrl" : "https://lms.gifu-nct.ac.jp/course/view.php?id=5115",
+    "syllabusUrl" : "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=21&department_id=03&subject_id=0022&year=2020&lang=ja"
+  },
+  {
+    "id" : 16,
+    "subject" : "計算機アーキテクチャ",
+    "lmsUrl" : "https://lms.gifu-nct.ac.jp/course/view.php?id=5115",
+    "syllabusUrl" : "https://syllabus.kosen-k.go.jp/Pages/PublicSyllabus?school_id=21&department_id=03&subject_id=0022&year=2020&lang=ja"
+  },
+]
