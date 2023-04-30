@@ -17,6 +17,7 @@
 		B89A2A6A29F135E7002CAEAC /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89A2A6929F135E7002CAEAC /* JsonData.swift */; };
 		B89A2A6E29F1387F002CAEAC /* DayPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89A2A6D29F1387F002CAEAC /* DayPanelView.swift */; };
 		B89A2A7029F1897C002CAEAC /* SubjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89A2A6F29F1897C002CAEAC /* SubjectListView.swift */; };
+		B8B9565529FE897700FBB1C3 /* SubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B9565429FE897700FBB1C3 /* SubjectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		B89A2A6929F135E7002CAEAC /* JsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonData.swift; sourceTree = "<group>"; };
 		B89A2A6D29F1387F002CAEAC /* DayPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPanelView.swift; sourceTree = "<group>"; };
 		B89A2A6F29F1897C002CAEAC /* SubjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectListView.swift; sourceTree = "<group>"; };
+		B8B9565429FE897700FBB1C3 /* SubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				B852939C29EEF5F500A04555 /* TimetableView.swift */,
 				B89A2A6D29F1387F002CAEAC /* DayPanelView.swift */,
 				B89A2A6F29F1897C002CAEAC /* SubjectListView.swift */,
+				B8B9565429FE897700FBB1C3 /* SubjectView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			files = (
 				B852938F29EEE24700A04555 /* ContentView.swift in Sources */,
 				B89A2A6A29F135E7002CAEAC /* JsonData.swift in Sources */,
+				B8B9565529FE897700FBB1C3 /* SubjectView.swift in Sources */,
 				B852939D29EEF5F500A04555 /* TimetableView.swift in Sources */,
 				B89A2A7029F1897C002CAEAC /* SubjectListView.swift in Sources */,
 				B89A2A6E29F1387F002CAEAC /* DayPanelView.swift in Sources */,
